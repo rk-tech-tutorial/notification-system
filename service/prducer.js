@@ -1,8 +1,8 @@
-const { smsTemplate } = require("./smsTemplate")
+const { sms } = require("./sms")
 const { notificationQueue } = require("./queue")
 
 const channels = {
-    sms: smsTemplate
+    sms
 }
 
 export const producer = (channel, event, variables, from, to) => {

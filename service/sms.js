@@ -1,7 +1,7 @@
 import { smsTemplates } from "../cms/smsTemplates"
 import _ from "lodash"
 
-export const smsTemplate = {
+export const sms = {
     get: (templateId) => {
         return smsTemplates[templateId]
     },
