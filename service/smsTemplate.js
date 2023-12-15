@@ -1,4 +1,4 @@
-import { smsTemplates } from "../cms/scholarship"
+import { smsTemplates } from "../cms/smsTemplates"
 import _ from "lodash"
 
 export const smsTemplate = {
